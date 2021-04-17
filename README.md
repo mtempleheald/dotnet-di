@@ -1,2 +1,3 @@
-# dotnet-di
+# .NET DI
+
 Clean dependency injection in .NET

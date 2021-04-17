@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>DotnetDI.Web</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\Application\DotnetDI.Application.csproj" />
+    <ProjectReference Include="..\Infrastructure\DotnetDI.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
